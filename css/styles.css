@@ -295,3 +295,26 @@ img {
     grid-column: 2 / 3;
   }
 }
+
+/** Footer **/
+.footer {
+  height: 50rem;
+  background-image: url(../img/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--blanco);
+}
+.footer a {
+  font-size: 2rem;
+  color: var(--blanco);
+}
+.copyright {
+  background-color: var(--negro);
+  text-align: center;
+  margin: 5rem 0 0 0;
+  padding: 1rem;
+}
